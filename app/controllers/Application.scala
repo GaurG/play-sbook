@@ -6,7 +6,7 @@ import play.api.mvc._
 object Application extends Controller {
   
   def index = Action {
-  	// create merge conflict
+  	// Adding 2 create merge conflict
   	import play.api.libs.json._
   	 Ok(JsObject(
   	 	Seq(
